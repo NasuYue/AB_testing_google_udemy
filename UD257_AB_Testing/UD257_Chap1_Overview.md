@@ -1,10 +1,10 @@
-# Note_ABtesting_ud257
+# Overview of A/B Testing
 
 AB testing from Google
 https://www.udacity.com/course/ab-testing--ud257
 
 
-- [Note_ABtesting_ud257](#note_abtesting_ud257)
+- [Overview of A/B Testing](#overview-of-ab-testing)
   - [Part1: Overview, ch1-7](#part1-overview-ch1-7)
     - [Premise](#premise)
     - [What's A/B Testing](#whats-ab-testing)
