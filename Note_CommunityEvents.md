@@ -3,18 +3,18 @@
 ## Taipei.Py - Aug 2022
 Link: www.meetup.com/Taipei-py/events/287508377
 
-### Sharing working exp in opensource project: Airflow
-
-#### 1. What's opensource biz model?
-
-- it's free if you have time
-- Airflow is tool not solution
-- Any special feature?
-    - Add-on is needed
+Part 1: Ecommerce prediction modeling
 
 
-- Aatronomer.io
-  - 專門做亞洲區的
-  - 缺SRE
+Part 2: Sharing exp in opensource project, Airflow Astro & airflow 
 
-#### 2. 
+- opensource need 3 parties 
+- 
+
+Airflow
+- https://airflow.apache.org
+- https://github.com/apacje/airflow
+
+Astro
+- https://astronomer.io
+- https://docs.astronomer.io/
