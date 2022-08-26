@@ -1,25 +1,24 @@
-# Overview of A/B Testing
+# Chapter 1: Overview of A/B Testing
 
-AB testing from Google
-https://www.udacity.com/course/ab-testing--ud257
+> Introduction to A/B Testing | Udacity Free Courses
+> https://www.udacity.com/course/ab-testing--ud257
 
 
-- [Overview of A/B Testing](#overview-of-ab-testing)
-  - [Part1: Overview, ch1-7](#part1-overview-ch1-7)
+- [Chapter 1: Overview of A/B Testing](#chapter-1-overview-of-ab-testing)
+  - [Sec.1-7 Overview](#sec1-7-overview)
     - [Premise](#premise)
     - [What's A/B Testing](#whats-ab-testing)
-  - [Part1: BusinessExample, ch8-17](#part1-businessexample-ch8-17)
+  - [Sec.8-17 Business Example](#sec8-17-business-example)
     - [Binomial Distribution](#binomial-distribution)
-    - [ch14 Caculating confidentail interval](#ch14-caculating-confidentail-interval)
-    - [Example & Quiz, ch15](#example--quiz-ch15)
-    - [ch16,17](#ch1617)
-  - [Part1: Comparing two samples: pooled standard error, ch18-19](#part1-comparing-two-samples-pooled-standard-error-ch18-19)
-    - [ch19](#ch19)
-    - [ch21-23 statistic power, power tradeoff size](#ch21-23-statistic-power-power-tradeoff-size)
-    - [ch24 Calculating Number of Pages Views Needed](#ch24-calculating-number-of-pages-views-needed)
+    - [Sec.14 Caculating confidentail interval](#sec14-caculating-confidentail-interval)
+    - [Sec.15 Example & Quiz](#sec15-example--quiz)
+    - [Sec.16-17](#sec16-17)
+  - [Sec.18-19 Comparing two samples: pooled standard error](#sec18-19-comparing-two-samples-pooled-standard-error)
+    - [Sec.21-23 statistic power, power tradeoff size](#sec21-23-statistic-power-power-tradeoff-size)
+    - [Sec.24 Calculating Number of Pages Views Needed](#sec24-calculating-number-of-pages-views-needed)
     - [Reference](#reference)
 
-## Part1: Overview, ch1-7
+## Sec.1-7 Overview
 
 ### Premise
 - AB testing is using statistics about Design and analyze experiment
@@ -56,7 +55,7 @@ Note: rate vs probability
 2. Probability: trial clicks / page views, how many user enter 2nd level pages, filter out reload, wrong cliks...etc
 
 
-## Part1: BusinessExample, ch8-17
+## Sec.8-17 Business Example
 
 ### Binomial Distribution
 - Pros: use formula to know how variable of overall CTP
@@ -66,7 +65,7 @@ Note: rate vs probability
     - identical distribution: p same for all
 
 
-### ch14 Caculating confidentail interval
+### Sec.14 Caculating confidentail interval
 單樣本比例檢定
 
 - p=p-hat=x/N
@@ -76,7 +75,7 @@ Note: rate vs probability
 - rule of thumb: if N*p-hat>5 & N*(1-p-hat)>5 then use normnal distribution
 
 
-### Example & Quiz, ch15 
+### Sec.15 Example & Quiz
 
 x=400
 N=2000
@@ -90,7 +89,7 @@ M=2.58*sqrt(0.15*0.85/2000)=0.0205996481
 
 CI=[p-SE,p+SE]=[0.1294,0.17063]
 
-### ch16,17
+### Sec.16-17
 
 單尾：是否有變化
 雙尾：是否有增加or減少
@@ -105,24 +104,21 @@ Process
 
 
 
-## Part1: Comparing two samples: pooled standard error, ch18-19 
+## Sec.18-19 Comparing two samples: pooled standard error
 雙樣本比例檢定 
 
 Sample1:Xcont, Ncount
 Sample2:Xexp, Nexp 
-
 Ppool=(Xcount+Xexp)/(Ncout+Nexp)
 
-### ch19
-
-*NOTE
+**NOTE**
 - what change matter to us? substantive = practically significance
 - In medical or tranditional science, need 5-15% change to really be substantive. 
 - In online biz like google, ***1-2%*** is quite large
 - You want repeatability. It's statistical significant
 - Sizing statistical significant bar is actually lower than practical significance bar
 
-### ch21-23 statistic power, power tradeoff size
+### Sec.21-23 statistic power, power tradeoff size
 - to measure smaller change or higher result cofidence  > more sclae of experienment
 
 - alpha = p(reject null |null true)
@@ -143,7 +139,7 @@ Example: how many page views affect sensibility
     - power increase
     - easy to reject null > sensitive
 
-### ch24 Calculating Number of Pages Views Needed
+### Sec.24 Calculating Number of Pages Views Needed
 
 H0:Pcont=Pexp
 H1:Pcont=\=Pcont
