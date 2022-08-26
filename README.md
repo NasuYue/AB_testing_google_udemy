@@ -14,27 +14,21 @@
 
 ### Skill to acquire
 
-1. Data tools
-   - SQL
-   - Excel
-   - Pyhton 
-
-2.  Visulization
-    - PowerBI
-    - Google Data Studio
+1. Data tools: python(jupyter notebook), sql, excel
+2. Visulization
+    - PowerBI, Google Data Studio
     - Data storytelling
 
-3. Knowledge and metholdology
+3. Metholdology
     - Statistics
       - hypothesis testing
       - descriptive statistics
     - AB testing
     - AARRR funnel  
 
-4. Engineering
-   - EC2
+4. Engineering (extra)
+   - Cloud:EC2
    - Pipline tool: DBT, Airflow
-
 
 ### key point to learn
 
