@@ -10,7 +10,9 @@
 ### Courses to learn
 1. [Udacity: UD257 - A/B Testing: Online Experiment Design and Analysis](https://www.udacity.com/course/ab-testing--ud257)
 2. [Dataquest: data analyst path](https://app.dataquest.io/learning-path)
-3. [Hacker Rank](https://www.hackerrank.com), practice sql, python, statistics 
+3. [Hacker Rank](https://www.hackerrank.com), 
+   - 10 Days of Statistics
+   - SQL
 
 ### Skill to acquire
 
