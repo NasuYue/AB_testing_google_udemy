@@ -5,13 +5,16 @@
 
 import random
 trials=100000
-hits=0
+num_at_least_one_boy=0
+num_both_are_boy=0
 
 for i in range(trials):
-    d1=random.randint(1,6)
-    d2=random.randint(1,6)
-    if (d1+d2) == 6 and (d1!=d2):
-        hits+=1
-        
-print('Probability with two different values and sum of 6 approximately is ',hits/trials) 
-# Probability is close to the caculation result: 1/9
+    d1=random.choice(['Boy','Girl'])
+    d2=random.choice(['Boy','Girl'])
+    if d1=='Boy' or d2=='Boy':
+        num_at_least_one_boy+=1
+    if d1=='Boy' and d2=='Boy':
+        num_both_are_boy+=1
+
+print('Conditional probability is approximately ',num_both_are_boy/num_at_least_one_boy) 
+# Probability is close to the caculation result: 1/3
