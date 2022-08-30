@@ -1,20 +1,15 @@
-
-
 # Dataquest
 > Dataquest has real-world challenges and projects instead of video lectures. It's the most effective way to learn the skills you need to build your career.  
 > https://www.dataquest.io
 
-### Why choice dataquest?
+## Why choice dataquest?
 1. Text lecture: Prefer text-based than video-based, much faster to me
 2. Project-based: Each section has a clear goal and a serious of challenges to learn the skill and metholdology throug handy practice.
 
+## Learning Path
+Data Analyst in Python  - 99 Lessons · 20 Projects
 
-
----
-
-**Data Analyst in Python** - 99 Lessons · 20 Projects
-
-| Chapter                                  | Section                                                 | Done |
+| Outline                                  | Section                                                 | Done |
 | :--------------------------------------- | :------------------------------------------------------ | :---- |
 | Part 1: Introduction to Python           | Introduction to Python                                  | x     |
 |                                          | For Loops and Conditional Statements in Python          | x     |
