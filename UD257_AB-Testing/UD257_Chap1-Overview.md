@@ -141,13 +141,16 @@ Example: how many page views affect sensibility
 
 ### Sec.24 Calculating Number of Pages Views Needed
 
+***[Hypothesis]***
+1. Initial
 H0:Pcont=Pexp
 H1:Pcont=\=Pcont
 
-Updated:
+2. Updated
 H0: Pexp-Pcont > dmin
 H1: Pexp-Pcont =< dmin
 
+***[Estimation]***
 d-hat= Pexp-Pcont
 dmin=minimum detectable effect, use 2% here.
 
@@ -158,7 +161,8 @@ m=z-score*SE
 
 CI=[d-m,d+m]
 
-Decision: If dmin not in CI, then reject null. Otherwise, accept null.
+***[Decision]***
+If dmin not in CI, then reject null. Otherwise, accept null.
 
 ---
 ### Reference
