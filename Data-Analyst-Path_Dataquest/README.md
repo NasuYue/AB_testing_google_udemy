@@ -1,10 +1,11 @@
 # Dataquest
-> Dataquest has real-world challenges and projects instead of video lectures. It's the most effective way to learn the skills you need to build your career.  
+> Dataquest is a data science bootcamp that offers career path courses, skill paths courses, and free introductory courses.  
 > https://www.dataquest.io
 
 ## Why choice dataquest?
 1. Text lecture: Prefer text-based than video-based, much faster to me
-2. Project-based: Each section has a clear goal and a serious of challenges to learn the skill and metholdology throug handy practice.
+2. Project-based: clear goal and a serious of challenges to learn the skill and metholdology throug handy practice.
+3. Real world data: real data with reasonal process for meaningful insight
 
 ## Learning Path
 Data Analyst in Python  - 99 Lessons · 20 Projects
