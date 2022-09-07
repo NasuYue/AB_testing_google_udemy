@@ -9,7 +9,3 @@ Major trend identification for line graph:
 
 https://matplotlib.org/stable/tutorials/introductory/usage.html
 https://datavizcatalogue.com/methods/line_graph.html
-
-
-### Storytelling Data Visualization and Information Design
-
