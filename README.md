@@ -1,40 +1,66 @@
 # Self learning data analytics in 90 days
 
+## Overview
 ### Objective
-
-- Learn data analyics methodology for general purpose
 - Be proficient in data analytics tool and skill
 - Career change to data analyst
 
-
 ### Courses to learn
-1. [Udacity: UD257 - A/B Testing: Online Experiment Design and Analysis](https://www.udacity.com/course/ab-testing--ud257)
-2. [Dataquest: data analyst path](https://app.dataquest.io/learning-path)
-3. [Hacker Rank](https://www.hackerrank.com), 
-   - 10 Days of Statistics
-   - SQL
+- [Dataquest: data analyst path](https://app.dataquest.io/learning-path)
 
 ### Skill to acquire
-
-1. Data tools: python(jupyter notebook), sql, excel
-2. Visulization
-    - PowerBI, Google Data Studio
-    - Data storytelling
-
+1. Data tools: 
+   - Python(jupyter notebook)
+   - Excel, PowerBI 
+   - SQL 
+   - API integration
+2. Visulizatio & data storytelling
 3. Metholdology
     - Statistics
-      - hypothesis testing
-      - descriptive statistics
     - AB testing
     - AARRR funnel  
 
 4. Engineering (extra)
    - Cloud:EC2
    - Pipline tool: DBT, Airflow
+---
 
-### key point to learn
+## Dataquest
+> [Dataquest](https://www.dataquest.io) is a data science bootcamp that offers career path courses, skill paths courses, and free introductory courses. 
 
-1. Statistics
-   - Binomial distribution for A/B testing
-   - Sample sizeing 
-   - Two sample testing
+## Why dataquest?
+1. Text lecture: Readinf is faster than watching video, contronl my own tempo
+2. Project-based: goal-oriented learning 
+3. Real data: finding insight is close to real work scenario 
+
+## Learning Path: Data analyst
+Data Analyst in Python  - 99 Lessons · 20 Projects
+
+| Outline                                  | Section                                                 | Done |
+| :--------------------------------------- | :------------------------------------------------------ | :---- |
+| Part 1: Introduction to Python           | Introduction to Python                                  | x     |
+|                                          | For Loops and Conditional Statements in Python          | x     |
+|                                          | Dictionaries, Frequency Tables, and Functions in Python | x     |
+|                                          | Python Functions and Learn Jupyter Notebook             | x     |
+|                                          | Python for Data Science: Intermediate                   | x     |
+| Part 2: Intermediate Python and Pandas   | Pandas and NumPy Fundamentals                           | x     |
+|                                          | Data Visualization Fundamentals                         |       |
+|                                          | Storytelling Data Visualization and Information Design  |       |
+| Part 3: Data Cleaning in Python          | Data Cleaning and Analysis                              |       |
+|                                          | Data Cleaning in Python: Advanced                       |       |
+|                                          | Data Cleaning Project Walkthrough                       |       |
+| Part 4: The Command Line                 | Elements of the Command Line                            |       |
+|                                          | Text Processing in the Command Line                     |       |
+| Part 5: Working with Data Sources        | SQL Fundamentals                                        |       |
+|                                          | Intermediate SQL for Data Analysis                      |       |
+|                                          | APIs and Web Scraping in Python                         |       |
+|                                          | Data Analysis in Business                               |       |
+| Part 6: Probability and Statistics       | Statistics Fundamentals                                 |       |
+|                                          | Intermediate Statistics: Averages and Variability       |       |
+|                                          | Probability: Fundamentals                               |       |
+|                                          | Conditional Probability                                 |       |
+|                                          | Hypothesis Testing: Fundamentals                        |       |
+| Part 7: Advanced Topics in Data Analysis | Command Line: Intermediate                              |       |
+|                                          | Git and Version Control                                 |       |
+| Part 8: Capstone Project                 | Data Analyst in Python Capstone Project                 |       |
+|                                          |                                                         |       |
