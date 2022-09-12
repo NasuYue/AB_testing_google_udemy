@@ -4,10 +4,10 @@
 
 - for i in range(6): i=1~6
 
-### indexing through label
+### indexing by label
 List.loc[]
 
-### indexing through index number
+### indexing by index number
 List.iloc[] 
 
 List.value_counts()
