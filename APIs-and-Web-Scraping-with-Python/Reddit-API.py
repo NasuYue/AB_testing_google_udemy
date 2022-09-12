@@ -5,7 +5,7 @@
 
 import requests
 
-# Create a dictionary of headers containing our Authorization header. 'bearer' refer to we're using OAuth
+# headers dict containing our Authorization header. 'bearer' refer to we're using OAuth
 headers={"Authorization": "bearer 13426216-4U1ckno9J5AiK72VRbpEeBaMSKk", "User-Agent": "Dataquest/1.0"}
 params={"t":"day"}
 url="https://oauth.reddit.com/r/python/top"
@@ -14,7 +14,7 @@ url="https://oauth.reddit.com/r/python/top"
 # This API endpoint will give us details about Vik Paruchuri.
 response=requests.get(url,headers=headers,params=params)
 
-# Print the content of the response.  As you can see, this token corresponds to the account of Vik Paruchuri.
+# response > json format
 python_top=response.json()
 
 # Note: 
@@ -24,9 +24,6 @@ python_top=response.json()
 # ===== Task 2: find id with the most upvotes =====
 # Article item: data > children > {kind,data}
 python_top_articles=python_top['data']['children']
-
-print(type(python_top_articles[0]))
-print(len(python_top_articles))
 
 most_upvoted = ""
 most_upvotes = 0
@@ -47,7 +44,6 @@ new_adr='https://oauth.reddit.com/r/python/comments/4b7w9u'
 comments=requests.get(new_adr,headers=headers).json()
 
 # ==== Task 5: Getting the Most Upvoted Comment ====
-
 # Explore comments structure and find list of comment in 2nd item
 comments_list=comments[1]['data']['children']
 
