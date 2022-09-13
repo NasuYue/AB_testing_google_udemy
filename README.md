@@ -29,9 +29,9 @@
 > [Dataquest](https://www.dataquest.io) is a data science bootcamp that offers career path courses, skill paths courses, and free introductory courses. 
 
 ## Why dataquest?
-1. Text lecture: Readinf is faster than watching video, contronl my own tempo
+1. Text lecture: Reading is faster than watching video, contronl my own tempo
 2. Project-based: goal-oriented learning 
-3. Real data: finding insight is close to real work scenario 
+3. Real data: close to real world scenario 
 
 ## Learning Path: Data analyst
 Data Analyst in Python  - 99 Lessons · 20 Projects
