@@ -1,4 +1,4 @@
-# Self-learning data analytics
+# Self learn Data Analytics | Dataquest
 
 ## Overview
 ### Objective
