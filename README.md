@@ -1,4 +1,4 @@
-# Self learning data analytics in 90 days
+# Self-learning data analytics
 
 ## Overview
 ### Objective
@@ -44,7 +44,7 @@ Data Analyst in Python  - 99 Lessons · 20 Projects
 |                                          | Python Functions and Learn Jupyter Notebook             | x     |
 |                                          | Python for Data Science: Intermediate                   | x     |
 | Part 2: Intermediate Python and Pandas   | Pandas and NumPy Fundamentals                           | x     |
-|                                          | Data Visualization Fundamentals                         |       |
+|                                          | Data Visualization Fundamentals                         | x     |
 |                                          | Storytelling Data Visualization and Information Design  |       |
 | Part 3: Data Cleaning in Python          | Data Cleaning and Analysis                              |       |
 |                                          | Data Cleaning in Python: Advanced                       |       |
@@ -53,7 +53,7 @@ Data Analyst in Python  - 99 Lessons · 20 Projects
 |                                          | Text Processing in the Command Line                     |       |
 | Part 5: Working with Data Sources        | SQL Fundamentals                                        |       |
 |                                          | Intermediate SQL for Data Analysis                      |       |
-|                                          | APIs and Web Scraping in Python                         |       |
+|                                          | APIs and Web Scraping in Python                         | x     |
 |                                          | Data Analysis in Business                               |       |
 | Part 6: Probability and Statistics       | Statistics Fundamentals                                 |       |
 |                                          | Intermediate Statistics: Averages and Variability       |       |
